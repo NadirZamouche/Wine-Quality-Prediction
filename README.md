@@ -35,17 +35,18 @@ project_template/
 │   ├── interim/        # Intermediate steps (various data cleaning methods)
 │   └── processed/      # Final datasets (clean/test/predictions)
 │
-├── figures/            # Plots, charts, visualizations like: Box Plot, Histograms, Correlation Matrix and Feature Importance
+├── figures/            # Box Plot, Histograms, Correlation Matrix and Feature Importance
 │
 ├── models/
 │   ├── modelling       # Training scripts
 │   └── model           # Serialized trained models
 │
 ├── pipelines/
-│   ├── data_pipe       # 2 Data preprocessing pipelines (one for retraining the model, the second for predictiong on new data)
+│   ├── data_pipe       # Data preprocessing pipeline (for retraining and predicting)
 │   ├── inference_pred  # Inference (prediction) pipeline
 │   └── retraining_pipe # Retraining pipeline
 │
 ├── libraries           # Common imports
 └── README.md
+
 
