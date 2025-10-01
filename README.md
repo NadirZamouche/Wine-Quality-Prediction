@@ -51,6 +51,7 @@ Looking at the model evaluation results 👇
 
 ## 📈 Feature Importance
 Here is a chart showing the sorted contribution of each physicochemical feature to the quality of the either of the wine types leaded by Alcohol:
+
 <img width="547" height="855" alt="Feature Importance" src="https://github.com/user-attachments/assets/56c2064a-34f1-43d6-98c2-ff7dd4a68bc8" />
 
 ---
@@ -77,6 +78,7 @@ project_template/
 │
 ├── libraries           # Common imports
 └── README.md
+
 
 
 
