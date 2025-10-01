@@ -32,23 +32,20 @@ project_template/
 │
 ├── data/
 │   ├── raw/            # Original immutable datasets
-│   ├── interim/        # Intermediate steps
-│   └── processed/      # Final datasets (train/test/predictions)
+│   ├── interim/        # Intermediate steps (various data cleaning methods)
+│   └── processed/      # Final datasets (clean/test/predictions)
 │
-├── figures/            # Plots, charts, visualizations
+├── figures/            # Plots, charts, visualizations like: Box Plot, Histograms, Correlation Matrix and Feature Importance
 │
 ├── models/
 │   ├── modelling       # Training scripts
 │   └── model           # Serialized trained models
 │
 ├── pipelines/
-│   ├── data_pipe       # Data preprocessing pipeline
+│   ├── data_pipe       # 2 Data preprocessing pipelines (one for retraining the model, the second for predictiong on new data)
 │   ├── inference_pred  # Inference (prediction) pipeline
 │   └── retraining_pipe # Retraining pipeline
 │
-├── experiments/        # Optional experiments & reports
-│   ├── tests
-│   └── report
-│
 ├── libraries           # Common imports
 └── README.md
+
