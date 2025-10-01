@@ -58,7 +58,7 @@ Here is a chart showing the sorted contribution of each physicochemical feature 
 
 ## 📂 Repository Structure  
 ```bash
-project_template/
+project_structure/
 │
 ├── data/
 │   ├── raw/            # Original immutable datasets
@@ -78,6 +78,7 @@ project_template/
 │
 ├── libraries           # Common imports
 └── README.md
+
 
 
 
