@@ -1,4 +1,4 @@
-# 🍷 Wine Quality Prediction  
+# 🍷 Wine Quality Prediction 🥂
 
 ## 📝 Description  
 This project focuses on predicting the quality of Portuguese **Vinho Verde wines** (both red and white variants) using physicochemical features such as acidity, sugar levels, sulfur dioxide, alcohol content, and more.  
@@ -48,5 +48,6 @@ project_template/
 │
 ├── libraries           # Common imports
 └── README.md
+
 
 
